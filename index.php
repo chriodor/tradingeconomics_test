@@ -83,7 +83,7 @@ $needGdprCheck = true;
                     <select class="form-select" aria-label="Select data type" id='dataTypeSelect' onchange='compareData(event)'>
                         <option value=''>Select data type</option>
                         <option value="GDP">Compare GDP</option>
-                        <option value="COVID">Compare Covid Cases</option>
+                        <!--option value="COVID">Compare Covid Cases</option-->
                         <option value="EXP/IMP">Compare Import/Export</option>
                         <option value="CREDIT">Credit Ratings</option>
                     </select>
