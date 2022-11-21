@@ -1,36 +1,6 @@
 <?php
 include_once "config/config.php";
 
-include_once "{$alapMainDir}modules/uri_classes.php";
-
-$Uri = new URI();
-
-$uriLocationSegment = trim($Uri->getSegment(2));
-
-$privacyInclude = "";
-
-$loadContent = "";
-switch ($uriLocationSegment) {
-
-    case "services":
-
-        break;
-
-    default:
-        if ($uriLocationSegment != "") {
-            // header("Location: $alapMainHttp");
-        }
-        break;
-}
-
-$loadCssHtml = "";
-if ($loadContent != "") {
-    if (is_file("{$alapMainDir}{$loadContent}css/style.css")) {
-        $loadCssHtml = "<link href='{$alapMainHttp}{$loadContent}css/style.css' rel='stylesheet' />";
-    }
-}
-
-$needGdprCheck = true;
 ?>
 <!DOCTYPE html>
 <html lang="hu">
