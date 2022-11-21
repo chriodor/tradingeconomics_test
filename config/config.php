@@ -8,7 +8,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 */
 
-$clientAuth = "ef12081fb207444:pajz8rkmahfgwb7";
+$clientAuth = ""; // <---- API key goes here
 
 if (is_file("../functions/functions.php")) {
     include_once "../functions/functions.php";
